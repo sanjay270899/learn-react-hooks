@@ -1,0 +1,28 @@
+.Header {
+  height: 7vh;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-l {
+    font-size: 5vh;
+    margin: 0 1rem;
+  }
+
+  &-r {
+    display: flex;
+    font-size: 3vh;
+
+    &-items {
+      margin: 0 1.5vw;
+      color: white;
+      border-bottom: 3px solid transparent;
+
+      &:hover {
+        border-bottom: 3px solid violet;
+      }
+    }
+  }
+}

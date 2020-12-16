@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  min-height: 93vh;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+.Routes {
+  padding: 1rem 5rem;
+
+  &-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+  }
+
+  &-links {
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.75s ease;
+
+    &:hover {
+      border-bottom: 3px solid purple;
+      background-color: whitesmoke;
+    }
+  }
+}
+
+.box {
+  padding: 1rem 3rem;
+  margin: 1rem 0;
+  background-color: white;
+  border-radius: 15px;
+
+  &-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: purple;
+  }
+
+  &-content {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}
+
+input,
+button {
+  padding: 0.1rem;
+  margin: 0.1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  background-color: rgb(250, 250, 250);
+}
+
+.code-link {
+  color: blue;
+  border-bottom: 1px solid blue;
+  border-radius: 11px 11px 0 0;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  font-size: 1.3rem;
+
+  &:hover {
+    background-color: rgba(purple, 0.05);
+  }
+}
+
+.Sanjay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    font-size: 3rem;
+  }
+
+  &-content {
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  &-social-links {
+    margin: 1rem;
+    padding: 1rem 3rem;
+    display: flex;
+    background-color: whitesmoke;
+    font-size: 2rem;
+    border-radius: 5px;
+
+    &-items {
+      margin: 0 1rem;
+    }
+  }
+}
